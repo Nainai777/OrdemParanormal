@@ -1,0 +1,123 @@
+*{
+	margin: 0;
+	padding: 0;
+	color: #f0f0f0;
+}
+.corpo{
+		background-color:#000000;
+}
+/*Fundo do menu*/
+.bk-menu{
+	background-color: #171717;
+	padding: 35px;
+	font-size: 1.4rem;
+	height: 25px;
+}
+.menu{
+	position: absolute;
+	width: 50px;
+	height: 40px;
+}
+/*Ico menu*/
+.ico-menu{
+	margin-left: 20px;
+	color: #f0f0f0;
+}
+.logo{
+	width: 200px;
+	margin-top: -27px;
+	margin-left: 7%;
+}
+/*Menu escondido o display none faz o sub menu desaparecer*/
+.sub-menu{
+	width: 200px;
+	display: none;
+	position: absolute;
+	background-color: #333333;
+	margin-top: 26px;
+}
+.menu:hover .sub-menu{
+	display: block;
+}
+/*Estilização dos links*/
+.link{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+.link a{
+	text-decoration: none;
+	color: #f0f0f0;
+	margin: 10px;
+}
+.link:hover{
+	background-color: #a83341;
+}
+.contato{
+	margin-top:20px;
+	color:white;
+	font-size:30px;
+	text-align:center;
+	font-family:'Roboto';
+	margin-bottom: 20px;
+}
+.fundo{
+	width: 100%;
+	height: 100%;
+}
+.text{
+	color: white;
+	font-family:'Roboto';
+	font-size: 18px;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 5%;
+}
+.logo2{
+	margin-top: 120px;
+	margin-left: 20px;
+	width: 200px;
+    padding: 8px;
+	display: inline-block;
+}
+.icone1{
+	margin-left: 20px;
+	text-align: center;
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+}
+.icone2{
+	margin-left: 10px;
+	width:40px;
+	height:40px;
+	display: inline-block;
+}
+.icone3{
+	margin-left: 10px;
+	width:40px;
+	height:40px;
+	display: inline-block;
+}
+.icone4{
+	margin-left: 10px;
+	width:40px;
+	height:40px;
+	display: inline-block;
+}
+.icone5{
+	margin-top: 20px;
+	margin-left: 10px;
+	width:40px;
+	height:40px;
+	display: inline-block;
+}
+.social{
+	margin-left: 30px;
+}
+.direitos{
+	margin-left: 10px;
+	margin-top: 3px;
+	font-size:14px;
+	margin-bottom: 40px;
+}

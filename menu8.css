@@ -1,0 +1,50 @@
+/* Estilo para toda página */
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+	justify-content: center;
+	background-color: #000;
+	margin: 0px;
+}
+.logo{
+    width: 250px;
+    padding: 8px;
+	margin: 30px;
+}
+.form{
+	margin-top: 10%;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: white;
+	width: 100%;
+	max-width: 300px;
+	border-radius: 20px;
+	padding: 40px 60px 20px 60px;
+	text-align: left;
+}
+.form input [type="submit"]{
+	background-color: #171717;
+	color: #171717;
+}
+.criar{
+	margin-bottom: 20px;
+	margin-right: 50px;
+}
+.loguinho{
+	width: 250px;
+    padding: 8px;
+	margin: 30px;
+}
+.obs{
+	font-size: 12px;
+}
+.btn{
+    width: 300px;
+    text-align: center;
+    padding: 10px;
+    border-radius:10px;
+	margin-top: 10px;
+}

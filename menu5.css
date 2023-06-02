@@ -1,0 +1,215 @@
+*{
+	margin: 0;
+	padding: 0;
+	color: #f0f0f0;
+}
+.corpo{
+		background-color:white;
+		color: black;
+}
+/*Fundo do menu*/
+.bk-menu{
+	background-color: #171717;
+	padding: 35px;
+	font-size: 1.4rem;
+	height: 25px;
+}
+.menu{
+	position: absolute;
+	width: 50px;
+	height: 40px;
+}
+/*Ico menu*/
+.ico-menu{
+	margin-left: 20px;
+	color: #f0f0f0;
+}
+.logo{
+	width: 200px;
+	margin-top: -27px;
+	margin-left: 7%;
+}
+/*Menu escondido o display none faz o sub menu desaparecer*/
+.sub-menu{
+	width: 200px;
+	display: none;
+	position: absolute;
+	background-color: #333333;
+	margin-top: 26px;
+}
+.menu:hover .sub-menu{
+	display: block;
+}
+/*Estilização dos links*/
+.link{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+.link a{
+	text-decoration: none;
+	color: #f0f0f0;
+	margin: 10px;
+}
+.link:hover{
+	background-color: #a83341;
+}
+.capa{
+	width: 100%;
+}
+.moletom{
+	color:black;
+	font-size:30px;
+	text-align:center;
+	font-family:'Roboto';
+}
+.mini{
+	font-size:18px;
+	color:black;
+	background-color:#171717;
+	text-align:center;
+	font-family:'Roboto';
+	border:2px dashed black;
+	border-radius:12px;
+	width:12%;
+	height:500px;
+	margin-top:15px;
+	margin-left: 10px;
+	float:left;
+	display: inline;
+}
+.modelos{
+	margin-top:10px;
+	width:90%;
+	height:150px;
+}
+.tamanho{
+	margin-top: 7%;
+	color:black;
+	display: inline-block;
+}
+.quant{
+	margin-top: 7%;
+	color:black;
+	display: inline-block;
+}
+.produto1{
+	background-color:#171717;
+	color:black;
+	font-size:16px;
+	text-align:center;
+	font-family:'Roboto';
+	width:30%;
+	height:560px;
+	border:1px solid black;
+	border-radius:10px;
+	margin-top:40px;
+	margin-left:3%;
+	display:block;
+}
+.arthur{
+	margin-top:7px;
+	margin-left: 30px;
+	width:33%;
+	height:600px;
+	display: inline;
+	border-radius:10px;
+	font-family: 'Roboto';
+	color: black;
+}
+.por{
+	color: black;
+	font-size:20px;
+	font-family:'Roboto';
+	text-align: left;
+	margin-top: 23px;
+	margin-left: 23px;
+}
+.preco{
+	color:black;
+	font-size:30px;
+	text-align: center;
+	font-family:'Roboto';
+	margin-top: 20px;
+}
+.loginho{
+	margin-top: 20px;
+	margin-left: 20px;
+	width: 200px;
+    padding: 8px;
+	display: inline-block;
+}
+.info{
+	background-color:white;
+	color:black;
+	font-size:16px;
+	text-align:center;
+	font-family:'Roboto';
+	width:28%;
+	height:500px;
+	border:1px solid white;
+	border-radius:10px;
+	margin-top: 30px;
+	margin-left:2%;
+	display:block;
+	float:right;
+	margin-right:250px;
+}
+.icone1{
+	color: #171717;
+	margin-left: 65%;
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+}
+.icone2{
+	color: #171717;
+	width:40px;
+	height:40px;
+	display: inline-block;
+}
+.icone3{
+	color: #171717;
+	width:40px;
+	height:40px;
+	display: inline-block;
+}
+.icone4{
+	color: #171717;
+	width:40px;
+	height:40px;
+	display: inline-block;
+}
+.social{
+	color: #171717;
+}
+.direitos{
+	margin-left: 2%;
+	color: #171717;
+	margin-top: 3px;
+	font-size:18px;
+	margin-bottom: 40px;
+}
+.baixo{
+	margin-top: 5%;
+}
+.btn{
+    background-color: #171717;
+    width: 300px;
+    text-align: center;
+    padding: 10px;
+    border-radius:10px;
+	margin-left: 2%;
+	margin-top: 40px;
+	display: inline-block;
+}
+.text{
+	margin-top: 3%;
+	text-align: center;
+	font-family: 'Arial';
+	font-size: 12;
+}
+.tabela{
+	margin-top: 10px;
+	margin-left: 10%;
+}
